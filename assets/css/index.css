@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alike&family=Carrois+Gothic+SC&family=Ojuju:wght@200..800&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     background-color: lightgray;
     min-height: 65px;
@@ -14,7 +16,25 @@ header {
     font-family: "Cormorant Garamond", serif;
 }
 
-p{
-    font-family: "Carrois Gothic SC", sans-serif;
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.397);
+
 }
 
+p {
+    font-family: "Carrois Gothic SC", sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: right;
+
+}
+
+section {
+    display: flex;
+    justify-content: right;
+    box-shadow: 2px 2px 2px black;
+}
