@@ -7,3 +7,7 @@ header {
     padding: 0 60px;
     font-family: "Cormorant Garamond", serif;
 }
+nav{
+    background-color: red;
+    text-decoration: none;
+}

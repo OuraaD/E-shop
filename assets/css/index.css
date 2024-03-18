@@ -36,5 +36,5 @@ p {
 section {
     display: flex;
     justify-content: right;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 20px 20px 20px black;
 }
