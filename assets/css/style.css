@@ -1,0 +1,9 @@
+header {
+    background-color: lightgray;
+    min-height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    font-family: "Cormorant Garamond", serif;
+}
