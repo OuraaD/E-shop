@@ -30,3 +30,7 @@
 .container h1{
     font-size: 40px;
 }
+
+.bague{
+    transform: rotateX(190deg);
+}
