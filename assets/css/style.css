@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: lightgray;
+    background-color:lightgray;
     min-height: 65px;
     display: flex;
     justify-content: space-between;
