@@ -5,14 +5,14 @@
 }
 
 header {
-    background-color: lightgray;
+    background-color:lightgray;
     min-height: 65px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     padding: 0 60px;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
