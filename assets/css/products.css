@@ -10,7 +10,7 @@
     width: 300px;
     object-fit: cover;
     border-radius: 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.582);
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.582); */
     gap: 50px;
     display: flex;
 }
@@ -31,6 +31,7 @@
     font-size: 40px;
 }
 
-.bague{
-    transform: rotateX(190deg);
-}
+/* .bague{
+    transform: rotate(-180deg);
+} */
+
