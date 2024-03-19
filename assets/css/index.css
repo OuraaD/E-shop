@@ -15,6 +15,9 @@ header {
     padding: 0 60px;
     font-family: "Cormorant Garamond", serif;
 }
+.logo{
+    
+}
 
 h1 {
     display: flex;
@@ -25,16 +28,17 @@ h1 {
 
 }
 
-p {
+.text,p {
     font-family: "Carrois Gothic SC", sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: right;
-
+    margin-left: 50px;
+    padding: 20px;
+    
 }
 
-section {
+.img img {
+    justify-content: left;
+}
+section{
     display: flex;
-    justify-content: right;
-    box-shadow: 20px 20px 20px black;
+    margin-right: 50px;
 }
