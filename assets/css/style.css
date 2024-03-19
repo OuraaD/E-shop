@@ -17,6 +17,8 @@ header {
     left: 0;
     width: 100%;
     font-family: "Cormorant Garamond", serif;
+    margin-right: 250px;
+    /* width: 50%; */
    
 }
 
@@ -29,5 +31,6 @@ header a {
 nav{
     display: flex;
     gap: 40px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    width: 35%;
 }
