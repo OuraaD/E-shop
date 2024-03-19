@@ -35,6 +35,6 @@ p {
 
 section {
     display: flex;
-    justify-content: right;
-    box-shadow: 20px 20px 20px black;
+    justify-content: center;
+    float: right;
 }
