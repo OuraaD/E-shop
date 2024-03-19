@@ -7,10 +7,11 @@
 }
 
 header {
-    background-color: #E0EDC6;
+    background-color: #e6e6e67a;
     min-height: 65px;
     padding: 0 60px;
     font-family: "Cormorant Garamond", serif;
+    width: 100%;
 }
 
 
@@ -66,9 +67,22 @@ section {
     margin-bottom: 50px;
 }
 
-.deux{
+.deux {
     font-family: "Carrois Gothic SC", sans-serif;
     display: inline-block;
     margin-left: 50px;
     padding: 20px;
+}
+
+.video {
+    background-image: url(../img/Cover_Pendentif\ BO_4200x2624.mp4);
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;
+    width: 100%;
+  
+}
+
+.animation{
+  height:100vh; 
 }
