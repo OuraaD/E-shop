@@ -9,14 +9,19 @@
 header {
     background-color: lightgray;
     min-height: 65px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0 60px;
     font-family: "Cormorant Garamond", serif;
 }
-.logo{
-    
+
+
+.logo {
+    margin-left: 150px;
+}
+
+.link{
+    text-align: center;
+    display: flex;
+    gap: 20px;
 }
 
 h1 {
@@ -28,17 +33,28 @@ h1 {
 
 }
 
-.text,p {
+.para {
     font-family: "Carrois Gothic SC", sans-serif;
     margin-left: 50px;
     padding: 20px;
-    
 }
 
-.img img {
+.img {
     justify-content: left;
 }
-section{
+
+section {
     display: flex;
     margin-right: 50px;
 }
+
+.btn {
+
+    background-color: black;
+    padding: 15px 45px;
+    color: #fff;
+    border-radius: 5px;
+    color: ;
+}
+
+s
