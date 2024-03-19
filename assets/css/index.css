@@ -7,7 +7,7 @@
 }
 
 header {
-    background-color: lightgray;
+    background-color: #E0EDC6;
     min-height: 65px;
     padding: 0 60px;
     font-family: "Cormorant Garamond", serif;
@@ -18,7 +18,7 @@ header {
     margin-left: 150px;
 }
 
-.link{
+.link {
     text-align: center;
     display: flex;
     gap: 20px;
@@ -41,20 +41,34 @@ h1 {
 
 .img {
     justify-content: left;
+    background-color: #E0EDC6;
 }
 
 section {
+
     display: flex;
     margin-right: 50px;
+
 }
 
 .btn {
 
-    background-color: black;
+    background-color: #E0EDC6;
     padding: 15px 45px;
     color: #fff;
     border-radius: 5px;
-    color: ;
+    display: flex;
+    justify-content: center;
 }
 
-s
+.necklace {
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.deux{
+    font-family: "Carrois Gothic SC", sans-serif;
+    display: inline-block;
+    margin-left: 50px;
+    padding: 20px;
+}
