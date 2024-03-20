@@ -10,3 +10,26 @@ body{
 h1{
     text-align: center;
 }
+.login{width: 90%;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.form-group{
+    margin: 10px 0;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
