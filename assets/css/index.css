@@ -38,6 +38,19 @@ header {
     padding-top: 100px;
 } */
 
+.star {
+
+    background-image: url(../img/img-main.jpg);
+    background-size: 150px;
+    width: 1280px;
+    height: 1600px;
+}
+
+.neck {
+    width: 100%;
+    object-fit: contain;
+
+}
 .logo {
     margin-left: 150px;
     display: flex;
@@ -72,7 +85,6 @@ section {
     margin-right: 50px;
 
 }
-
 
 
 .btn {
