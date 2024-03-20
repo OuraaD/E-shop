@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/assets/js/login.js" defer></script>
+    <script src="../js/login.js" defer></script>
     <title>Log in</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/login.css">
+
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
     <main>
         <section class="login">
             <h1>Connectez-vous</h1>
-            <section class="login">
+            <section class="login2">
             <form id="form">
                 <section class="form-group">
                     <label for="email">Email *</label>
@@ -36,5 +37,10 @@
 </main>
 <footer>
 </footer>
+<script type="module">
+    import{LocalAuthService}from "../js/services/local-services/local-auth.service.js"
+
+    LocalAuthService.login();
+</script>
 </body>
 </html>
