@@ -57,11 +57,11 @@ header {
     justify-content: center;
 }
 
-.link {
+/* .link {
     text-align: center;
     display: flex;
     gap: 20px;
-}
+} */
 
 h1 {
     display: flex;
