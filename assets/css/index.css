@@ -38,19 +38,31 @@ header {
     padding-top: 100px;
 } */
 
-.star {
+.two {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+  width: 100%;
 
-    background-image: url(../img/img-main.jpg);
-    background-size: 150px;
-    width: 1280px;
-    height: 1600px;
 }
 
-.neck {
-    width: 100%;
+/* .star{
+    width: 550px;
+} */
+
+.star{
+  
     object-fit: contain;
+    margin-top: 160px;
+    
+}
+
+.trefle{
+    object-fit: none;
 
 }
+
 .logo {
     margin-left: 150px;
     display: flex;
@@ -87,7 +99,7 @@ section {
 }
 
 
-.btn {
+/* .btn {
 
     background-color: #E0EDC6;
     padding: 15px 45px;
@@ -95,7 +107,7 @@ section {
     border-radius: 5px;
     display: flex;
     justify-content: center;
-}
+} */
 
 .necklace {
     margin-left: 50px;
