@@ -23,9 +23,9 @@ export class LocalAuthService {
     }
 
     console.log("connexion reussie")
-    window.location.href=""
+    window.location.href="http://127.0.0.1:5503/src/index.html"
 
-    const storage= window.localStorage;
+     const storage= window.localStorage;
     const data= {
       email: user.email,
       firstname:user.firstname,
@@ -34,7 +34,7 @@ export class LocalAuthService {
     storage.setItem("user", JSON.stringify(data));
   }
 
-  static logout() {
+    static logout() {
     console.log("méthode logout");
     const storage = window.localStorage;
     storage.removeItem("user") 
