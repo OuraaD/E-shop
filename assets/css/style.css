@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color:lightgray;
+    background-color:rgb(145, 189, 165);
     min-height: 65px;
     display: flex;
     justify-content: space-between;
@@ -17,9 +17,7 @@ header {
     left: 0;
     width: 100%;
     font-family: "Cormorant Garamond", serif;
-    margin-right: 250px;
-  
-   
+    margin-right: 250px;  
 }
 
 header a {
@@ -37,3 +35,8 @@ header i:hover{
     flex-wrap: wrap;
     width: 35%;
 } */
+
+.titre {
+    font-size: 40px;
+    
+}
