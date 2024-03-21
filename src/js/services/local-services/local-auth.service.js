@@ -23,8 +23,20 @@ export class LocalAuthService {
     }
 
     console.log("connexion reussie")
-    return 'connexion reussie'
+    window.location.href=""
+
+    const storage= window.localStorage;
+    const data= {
+      email: user.email,
+      firstname:user.firstname,
+      lastname: user.lastname,
+    };
+    storage.setItem("user", JSON.stringify(data));
   }
 
-  logout() {}
+  static logout() {
+    console.log("méthode logout");
+    const storage = window.localStorage;
+    storage.removeItem("user") 
+  }
 }

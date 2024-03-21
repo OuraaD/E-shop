@@ -6,6 +6,7 @@ console.log(inputEmail)
 const inputPassword= document.getElementById("password")
 console.log(inputPassword)
 const formulaire= document.getElementById("form")
+
 console.log(formulaire)
 formulaire.addEventListener("submit", function (e){
     e.preventDefault() 
