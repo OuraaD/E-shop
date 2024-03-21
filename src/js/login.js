@@ -1,3 +1,5 @@
+import {LocalAuthService} from "./services/local-services/local-auth.service.js";
+
 console.log("cc")
 const inputEmail= document.getElementById("email")
 console.log(inputEmail)
@@ -11,4 +13,6 @@ formulaire.addEventListener("submit", function (e){
     console.log(emailValue)
     const passwordValue= inputPassword.value
     console.log(passwordValue);
+
+    LocalAuthService.login(emailValue, passwordValue)
 })
