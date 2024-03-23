@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../js/login.js" defer></script>
+    <script src="../js/login.js" defer type="module"></script>
     <title>Log in</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/login.css">
@@ -25,12 +25,12 @@
                 <form id="form">
                 <h1>Connectez-vous</h1>
                 <section class="input-box">
-                    <input type="email" placeholder="Entrez votre email" required>
+                    <input type="email" id="email" placeholder="Entrez votre email" required>
                     <i class="fa-solid fa-user"></i>
                 </section>
 
                 <section class="input-box">
-                    <input type="password" placeholder="Entrez votre mot de passe" required>
+                    <input type="password" id="password" placeholder="Entrez votre mot de passe" required>
                     <i class="fa-solid fa-lock"></i>
                 </section>
 
@@ -39,7 +39,7 @@
                     <a href="#">Mot de passe oublié ?</a>
                 </section>
 
-                <button type="submit" class="btn">Connectez-vous</button>
+                <input type="submit" class="btn" value="Connectez-vous">
                 <section class="register-link">
                     <p>Vous n'avez pas de compte ? <a href="#">Enregistrez-vous</a></p>
                 </section>
@@ -48,7 +48,10 @@
 </main>
 <footer>
 </footer>
-    
+<script>
+    // Récupérer le chemin du fichier actuel
+    var cheminFichier = window.location.href;
+    console.log("Chemin du fichier actuel : " + cheminFichier);
 </script>
 </body>
 </html>
