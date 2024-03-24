@@ -8,16 +8,17 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="/src/js/logout.js" defer type="module"></script>
+
 
 
 </head>
 <body>
     <header>
-        <a href="/src/index.html"><img src="/assets/img/logo (2).png" alt="logo"></a>
-        <nav>
-        <a href="/src/view/login.html">Login</a>
-        <a href="/src/view/products.html">Products</a>
-    </nav>
+        <a href="/src/view/products.html">Nos produits</a>
+        <a class="titre" href="../index.html">Van Cleef & Arpels</a>
+        <a href="#"><i class="fa-solid fa-user"></i></a>
+        <a><i id="logoutButton" class="fa-solid fa-arrow-right-from-bracket"></i></a>
     </header>
     <main>
 
@@ -49,7 +50,6 @@
 <footer>
 </footer>
 <script>
-    // Récupérer le chemin du fichier actuel
     var cheminFichier = window.location.href;
     console.log("Chemin du fichier actuel : " + cheminFichier);
 </script>
